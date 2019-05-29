@@ -1,0 +1,7 @@
+name: gradlew
+version: 0.1.0
+summary: gradlew
+properties:
+- name: task
+  type: string
+  required: true

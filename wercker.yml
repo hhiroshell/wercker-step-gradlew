@@ -1,0 +1,11 @@
+box: alpine
+
+build:
+  steps:
+  - shellcheck:
+      files: run.sh
+
+publish:
+  steps:
+  - internal/publish-step:
+      owner: hhiroshell
